@@ -1,0 +1,171 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/abdullahbakhach/dev/sandbox/laravel-8-repro/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/227c65e7/
+0	composer.json	/^            "@php -r \\"file_exists('.env') || copy('.env.example', '.env');\\""$/;"	s	array:scripts.post-root-package-install
+0	composer.json	/^            "@php artisan key:generate --ansi"$/;"	s	array:scripts.post-create-project-cmd
+0	composer.json	/^            "Illuminate\\\\Foundation\\\\ComposerScripts::postAutoloadDump",$/;"	s	array:scripts.post-autoload-dump
+0	composer.json	/^        "framework",$/;"	s	array:keywords
+1	composer.json	/^            "@php artisan package:discover --ansi"$/;"	s	array:scripts.post-autoload-dump
+1	composer.json	/^        "laravel"$/;"	s	array:keywords
+About Laravel	README.md	/^## About Laravel$/;"	s
+AppServiceProvider	app/Providers/AppServiceProvider.php	/^class AppServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+App\\Console	app/Console/Kernel.php	/^namespace App\\Console;$/;"	n
+App\\Exceptions	app/Exceptions/Handler.php	/^namespace App\\Exceptions;$/;"	n
+App\\Http	app/Http/Kernel.php	/^namespace App\\Http;$/;"	n
+App\\Http\\Controllers	app/Http/Controllers/Controller.php	/^namespace App\\Http\\Controllers;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/Authenticate.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/EncryptCookies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/RedirectIfAuthenticated.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrimStrings.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrustHosts.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/TrustProxies.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Http\\Middleware	app/Http/Middleware/VerifyCsrfToken.php	/^namespace App\\Http\\Middleware;$/;"	n
+App\\Models	app/Models/User.php	/^namespace App\\Models;$/;"	n
+App\\Providers	app/Providers/AppServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/AuthServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/BroadcastServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/EventServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\Providers	app/Providers/RouteServiceProvider.php	/^namespace App\\Providers;$/;"	n
+App\\\\	composer.json	/^            "App\\\\": "app\/",$/;"	s	object:autoload.psr-4
+AuthServiceProvider	app/Providers/AuthServiceProvider.php	/^class AuthServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Authenticate	app/Http/Middleware/Authenticate.php	/^class Authenticate extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+BroadcastServiceProvider	app/Providers/BroadcastServiceProvider.php	/^class BroadcastServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Code of Conduct	README.md	/^## Code of Conduct$/;"	s
+Contributing	README.md	/^## Contributing$/;"	s
+Controller	app/Http/Controllers/Controller.php	/^class Controller extends BaseController$/;"	c	namespace:App\\Http\\Controllers
+CreateFailedJobsTable	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^class CreateFailedJobsTable extends Migration$/;"	c
+CreatePasswordResetsTable	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^class CreatePasswordResetsTable extends Migration$/;"	c
+CreateUsersTable	database/migrations/2014_10_12_000000_create_users_table.php	/^class CreateUsersTable extends Migration$/;"	c
+DatabaseSeeder	database/seeders/DatabaseSeeder.php	/^class DatabaseSeeder extends Seeder$/;"	c	namespace:Database\\Seeders
+Database\\Factories	database/factories/UserFactory.php	/^namespace Database\\Factories;$/;"	n
+Database\\Seeders	database/seeders/DatabaseSeeder.php	/^namespace Database\\Seeders;$/;"	n
+Database\\\\Factories\\\\	composer.json	/^            "Database\\\\Factories\\\\": "database\/factories\/",$/;"	s	object:autoload.psr-4
+Database\\\\Seeders\\\\	composer.json	/^            "Database\\\\Seeders\\\\": "database\/seeders\/"$/;"	s	object:autoload.psr-4
+EncryptCookies	app/Http/Middleware/EncryptCookies.php	/^class EncryptCookies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+EventServiceProvider	app/Providers/EventServiceProvider.php	/^class EventServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+HOME	app/Providers/RouteServiceProvider.php	/^    public const HOME = '\/home';$/;"	d	class:App\\Providers\\RouteServiceProvider
+Handler	app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	c	namespace:App\\Exceptions
+Kernel	app/Console/Kernel.php	/^class Kernel extends ConsoleKernel$/;"	c	namespace:App\\Console
+Kernel	app/Http/Kernel.php	/^class Kernel extends HttpKernel$/;"	c	namespace:App\\Http
+LARAVEL_START	artisan	/^define('LARAVEL_START', microtime(true));$/;"	d
+Laravel Sponsors	README.md	/^## Laravel Sponsors$/;"	s
+Learning Laravel	README.md	/^## Learning Laravel$/;"	s
+License	README.md	/^## License$/;"	s
+Premium Partners	README.md	/^### Premium Partners$/;"	S	section:Laravel Sponsors
+PreventRequestsDuringMaintenance	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^class PreventRequestsDuringMaintenance extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+RedirectIfAuthenticated	app/Http/Middleware/RedirectIfAuthenticated.php	/^class RedirectIfAuthenticated$/;"	c	namespace:App\\Http\\Middleware
+RouteServiceProvider	app/Providers/RouteServiceProvider.php	/^class RouteServiceProvider extends ServiceProvider$/;"	c	namespace:App\\Providers
+Security Vulnerabilities	README.md	/^## Security Vulnerabilities$/;"	s
+Tests\\\\	composer.json	/^            "Tests\\\\": "tests\/"$/;"	s	object:autoload-dev.psr-4
+TrimStrings	app/Http/Middleware/TrimStrings.php	/^class TrimStrings extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+TrustHosts	app/Http/Middleware/TrustHosts.php	/^class TrustHosts extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+TrustProxies	app/Http/Middleware/TrustProxies.php	/^class TrustProxies extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+User	app/Models/User.php	/^class User extends Authenticatable$/;"	c	namespace:App\\Models
+UserFactory	database/factories/UserFactory.php	/^class UserFactory extends Factory$/;"	c	namespace:Database\\Factories
+VerifyCsrfToken	app/Http/Middleware/VerifyCsrfToken.php	/^class VerifyCsrfToken extends Middleware$/;"	c	namespace:App\\Http\\Middleware
+app	artisan	/^$app = require_once __DIR__.'\/bootstrap\/app.php';$/;"	v
+app	bootstrap/app.php	/^$app = new Illuminate\\Foundation\\Application($/;"	v
+autoload	composer.json	/^    "autoload": {$/;"	o
+autoload-dev	composer.json	/^    "autoload-dev": {$/;"	o
+axios	package.json	/^        "axios": "^0.19",$/;"	s	object:devDependencies
+boot	app/Providers/AppServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AppServiceProvider
+boot	app/Providers/AuthServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\AuthServiceProvider
+boot	app/Providers/BroadcastServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\BroadcastServiceProvider
+boot	app/Providers/EventServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\EventServiceProvider
+boot	app/Providers/RouteServiceProvider.php	/^    public function boot()$/;"	f	class:App\\Providers\\RouteServiceProvider
+casts	app/Models/User.php	/^    protected $casts = [$/;"	v	class:App\\Models\\User
+commands	app/Console/Kernel.php	/^    protected $commands = [$/;"	v	class:App\\Console\\Kernel
+commands	app/Console/Kernel.php	/^    protected function commands()$/;"	f	class:App\\Console\\Kernel
+config	composer.json	/^    "config": {$/;"	o
+configureRateLimiting	app/Providers/RouteServiceProvider.php	/^    protected function configureRateLimiting()$/;"	f	class:App\\Providers\\RouteServiceProvider
+cross-env	package.json	/^        "cross-env": "^7.0",$/;"	s	object:devDependencies
+definition	database/factories/UserFactory.php	/^    public function definition()$/;"	f	class:Database\\Factories\\UserFactory
+description	composer.json	/^    "description": "The Laravel Framework.",$/;"	s
+dev	package.json	/^        "dev": "npm run development",$/;"	s	object:scripts
+devDependencies	package.json	/^    "devDependencies": {$/;"	o
+development	package.json	/^        "development": "cross-env NODE_ENV=development node_modules\/webpack\/bin\/webpack.js --/;"	s	object:scripts
+dont-discover	composer.json	/^            "dont-discover": []$/;"	a	object:extra.laravel
+dontFlash	app/Exceptions/Handler.php	/^    protected $dontFlash = [$/;"	v	class:App\\Exceptions\\Handler
+dontReport	app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	v	class:App\\Exceptions\\Handler
+down	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function down()$/;"	f	class:CreateUsersTable
+down	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function down()$/;"	f	class:CreatePasswordResetsTable
+down	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function down()$/;"	f	class:CreateFailedJobsTable
+except	app/Http/Middleware/EncryptCookies.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\EncryptCookies
+except	app/Http/Middleware/PreventRequestsDuringMaintenance.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\PreventRequestsDuringMaintenance
+except	app/Http/Middleware/TrimStrings.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\TrimStrings
+except	app/Http/Middleware/VerifyCsrfToken.php	/^    protected $except = [$/;"	v	class:App\\Http\\Middleware\\VerifyCsrfToken
+extra	composer.json	/^    "extra": {$/;"	o
+facade/ignition	composer.json	/^        "facade\/ignition": "^2.3.6",$/;"	s	object:require-dev
+fideloper/proxy	composer.json	/^        "fideloper\/proxy": "^4.2",$/;"	s	object:require
+fillable	app/Models/User.php	/^    protected $fillable = [$/;"	v	class:App\\Models\\User
+fruitcake/laravel-cors	composer.json	/^        "fruitcake\/laravel-cors": "^2.0",$/;"	s	object:require
+fzaninotto/faker	composer.json	/^        "fzaninotto\/faker": "^1.9.1",$/;"	s	object:require-dev
+guzzlehttp/guzzle	composer.json	/^        "guzzlehttp\/guzzle": "^7.0.1",$/;"	s	object:require
+handle	app/Http/Middleware/RedirectIfAuthenticated.php	/^    public function handle($request, Closure $next, ...$guards)$/;"	f	class:App\\Http\\Middleware\\RedirectIfAuthenticated
+headers	app/Http/Middleware/TrustProxies.php	/^    protected $headers = Request::HEADER_X_FORWARDED_ALL;$/;"	v	class:App\\Http\\Middleware\\TrustProxies
+hidden	app/Models/User.php	/^    protected $hidden = [$/;"	v	class:App\\Models\\User
+hosts	app/Http/Middleware/TrustHosts.php	/^    public function hosts()$/;"	f	class:App\\Http\\Middleware\\TrustHosts
+hot	package.json	/^        "hot": "cross-env NODE_ENV=development node_modules\/webpack-dev-server\/bin\/webpack-de/;"	s	object:scripts
+input	artisan	/^    $input = new Symfony\\Component\\Console\\Input\\ArgvInput,$/;"	v
+kernel	artisan	/^$kernel = $app->make(Illuminate\\Contracts\\Console\\Kernel::class);$/;"	v
+keywords	composer.json	/^    "keywords": [$/;"	a
+laravel	composer.json	/^        "laravel": {$/;"	o	object:extra
+laravel-mix	package.json	/^        "laravel-mix": "^5.0.1",$/;"	s	object:devDependencies
+laravel/framework	composer.json	/^        "laravel\/framework": "^8.0",$/;"	s	object:require
+laravel/tinker	composer.json	/^        "laravel\/tinker": "^2.0"$/;"	s	object:require
+license	composer.json	/^    "license": "MIT",$/;"	s
+listen	app/Providers/EventServiceProvider.php	/^    protected $listen = [$/;"	v	class:App\\Providers\\EventServiceProvider
+lodash	package.json	/^        "lodash": "^4.17.19",$/;"	s	object:devDependencies
+middleware	app/Http/Kernel.php	/^    protected $middleware = [$/;"	v	class:App\\Http\\Kernel
+middlewareGroups	app/Http/Kernel.php	/^    protected $middlewareGroups = [$/;"	v	class:App\\Http\\Kernel
+minimum-stability	composer.json	/^    "minimum-stability": "dev",$/;"	s
+mix	webpack.mix.js	/^const mix = require('laravel-mix');$/;"	C
+mockery/mockery	composer.json	/^        "mockery\/mockery": "^1.3.1",$/;"	s	object:require-dev
+model	database/factories/UserFactory.php	/^    protected $model = User::class;$/;"	v	class:Database\\Factories\\UserFactory
+name	composer.json	/^    "name": "laravel\/laravel",$/;"	s
+nunomaduro/collision	composer.json	/^        "nunomaduro\/collision": "^5.0",$/;"	s	object:require-dev
+optimize-autoloader	composer.json	/^        "optimize-autoloader": true,$/;"	b	object:config
+php	composer.json	/^        "php": "^7.3",$/;"	s	object:require
+phpunit/phpunit	composer.json	/^        "phpunit\/phpunit": "^9.3"$/;"	s	object:require-dev
+policies	app/Providers/AuthServiceProvider.php	/^    protected $policies = [$/;"	v	class:App\\Providers\\AuthServiceProvider
+post-autoload-dump	composer.json	/^        "post-autoload-dump": [$/;"	a	object:scripts
+post-create-project-cmd	composer.json	/^        "post-create-project-cmd": [$/;"	a	object:scripts
+post-root-package-install	composer.json	/^        "post-root-package-install": [$/;"	a	object:scripts
+prefer-stable	composer.json	/^    "prefer-stable": true,$/;"	b
+preferred-install	composer.json	/^        "preferred-install": "dist",$/;"	s	object:config
+private	package.json	/^    "private": true,$/;"	b
+prod	package.json	/^        "prod": "npm run production",$/;"	s	object:scripts
+production	package.json	/^        "production": "cross-env NODE_ENV=production node_modules\/webpack\/bin\/webpack.js --no/;"	s	object:scripts
+proxies	app/Http/Middleware/TrustProxies.php	/^    protected $proxies;$/;"	v	class:App\\Http\\Middleware\\TrustProxies
+psr-4	composer.json	/^        "psr-4": {$/;"	o	object:autoload
+psr-4	composer.json	/^        "psr-4": {$/;"	o	object:autoload-dev
+redirectTo	app/Http/Middleware/Authenticate.php	/^    protected function redirectTo($request)$/;"	f	class:App\\Http\\Middleware\\Authenticate
+register	app/Exceptions/Handler.php	/^    public function register()$/;"	f	class:App\\Exceptions\\Handler
+register	app/Providers/AppServiceProvider.php	/^    public function register()$/;"	f	class:App\\Providers\\AppServiceProvider
+require	composer.json	/^    "require": {$/;"	o
+require-dev	composer.json	/^    "require-dev": {$/;"	o
+resolve-url-loader	package.json	/^        "resolve-url-loader": "^3.1.0"$/;"	s	object:devDependencies
+routeMiddleware	app/Http/Kernel.php	/^    protected $routeMiddleware = [$/;"	v	class:App\\Http\\Kernel
+run	database/seeders/DatabaseSeeder.php	/^    public function run()$/;"	f	class:Database\\Seeders\\DatabaseSeeder
+schedule	app/Console/Kernel.php	/^    protected function schedule(Schedule $schedule)$/;"	f	class:App\\Console\\Kernel
+scripts	composer.json	/^    "scripts": {$/;"	o
+scripts	package.json	/^    "scripts": {$/;"	o
+sort-packages	composer.json	/^        "sort-packages": true$/;"	b	object:config
+status	artisan	/^$status = $kernel->handle($/;"	v
+type	composer.json	/^    "type": "project",$/;"	s
+up	database/migrations/2014_10_12_000000_create_users_table.php	/^    public function up()$/;"	f	class:CreateUsersTable
+up	database/migrations/2014_10_12_100000_create_password_resets_table.php	/^    public function up()$/;"	f	class:CreatePasswordResetsTable
+up	database/migrations/2019_08_19_000000_create_failed_jobs_table.php	/^    public function up()$/;"	f	class:CreateFailedJobsTable
+uri	server.php	/^$uri = urldecode($/;"	v
+watch	package.json	/^        "watch": "npm run development -- --watch",$/;"	s	object:scripts
+watch-poll	package.json	/^        "watch-poll": "npm run watch -- --watch-poll",$/;"	s	object:scripts
+xsi	phpunit.xml	/^>$/;"	n	uri:http://www.w3.org/2001/XMLSchema-instance
