@@ -17,7 +17,8 @@ class TestModelFactory extends Factory
     public function definition()
     {
         return [
-            'test_column' => fake()->sentence(),
+             //'test_column' => fake()->sentence(),
+             'test_column' => 'hello',
         ];
     }
 }
